@@ -27,17 +27,14 @@ if (!$post) {
 }
 ?>
 
-<div class="container">
-    <h2>Edit Post</h2>
-    <form method="POST">
-        <input type="hidden" name="id" value="<?php echo $post['id']; ?>">
-        Title: <input type="text" name="title" value="<?php echo htmlspecialchars($post['title']); ?>" required>
-        Description: <textarea name="description" required><?php echo htmlspecialchars($post['description']); ?></textarea>
-        Status: 
-        <select name="status">
-            <option value="published" <?php if ($post['status'] == 'published') echo 'selected'; ?>>Published</option>
-            <option value="draft" <?php if ($post['status'] == 'draft') echo 'selected'; ?>>Draft</option>
-        </select>
-        <button type="submit">Update Post</button>
-    </form>
-</div>
+<form method="POST">
+    <input type="hidden" name="id" value="<?php echo $post['id']; ?>">
+    Title: <input type="text" name="title" value="<?php echo htmlspecialchars($post['title']); ?>" required>
+    Description: <textarea name="description" required><?php echo htmlspecialchars($post['description']); ?></textarea>
+    Status: 
+    <select name="status">
+        <option value="published" <?php if ($post['status'] == 'published') echo 'selected'; ?>>Published</option>
+        <option value="draft" <?php if ($post['status'] == 'draft') echo 'selected'; ?>>Draft</option>
+    </select>
+    <button type="submit">Update Post</button>
+</form>
