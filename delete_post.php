@@ -7,4 +7,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 $post_id = $_GET['id'];
-$stmt = $pdo->prepare("DELETE FROM posts WHERE id = ? AND
+$stmt = $pdo->prepare("DELETE FROM posts WHERE id = ? AND user_id = ?");
+$stmt->execute([$post_id, $_SESSION['user_id']]);
+header('Location: manage_post.php');
+?>
