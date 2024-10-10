@@ -11,11 +11,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 ?>
 
-<div class="container">
-    <h2>Register</h2>
-    <form method="POST">
-        Username: <input type="text" name="username" required>
-        Password: <input type="password" name="password" required>
-        <button type="submit">Register</button>
-    </form>
-</div>
+<form method="POST">
+    Username: <input type="text" name="username" required>
+    Password: <input type="password" name="password" required>
+    <button type="submit">Register</button>
+</form>
