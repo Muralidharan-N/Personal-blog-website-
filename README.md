@@ -20,19 +20,3 @@ Technologies Used
 - JavaScript
 
 
-File Structure
-/blog
-    ├── /css
-    │   └── style.css
-    ├── /uploads
-    ├── db.php
-    ├── index.php
-    ├── login.php
-    ├── logout.php
-    ├── register.php
-    ├── manage_post.php
-    ├── add_post.php
-    ├── edit_post.php
-    ├── view_post.php
-
-🔗Blog sample screenshot.pdf
