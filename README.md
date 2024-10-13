@@ -35,4 +35,4 @@ File Structure
     ├── edit_post.php
     ├── view_post.php
 
-
+🔗Blog sample screenshot.pdf
