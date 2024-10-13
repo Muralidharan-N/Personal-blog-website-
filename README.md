@@ -16,6 +16,6 @@ Technologies Used
 - PHP 7.x
 - MySQLi
 - HTML5
-- CSS3
+- Bootstrap Css
 - JavaScript
 
