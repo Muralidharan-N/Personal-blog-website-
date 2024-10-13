@@ -19,4 +19,3 @@ Technologies Used
 - CSS3
 - JavaScript
 
-
